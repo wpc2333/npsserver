@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  nps:
+    container_name: npsserver
+    build: .
+    # tty: true    
+    ports:
+      - "8080:8080"
+      - "8024:8024"
+
